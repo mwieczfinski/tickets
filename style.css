@@ -47,4 +47,5 @@ body {
 .name-and-surname {
     display: flex;
     gap: 16px;
+
 }
