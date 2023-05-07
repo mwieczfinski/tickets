@@ -33,6 +33,24 @@
             <label class="form-field form-row">
                 Data urodzenia
                 <input class="form-field__input" type="date" name="birth-date">
+                
+                <label class="personal-data"for="ticket-select"><b><legend>Wybór miejsca</b></legend></label>
+                Miejsce:
+                <select name="ticket" id="ticket-select">
+                    <option value="">--Wybierz rodzaj biletu--</option>
+                    <option value="vip">VIP</option>
+                    <option value="normalny">Strefa normalna</option>
+                    <option value="tani">Strefa taniego biletu</option>
+                    
+                </select>
+
+                <fieldset>
+                    <legend><b>Zgoda na przetwarzanie danych:</b></legend>
+                
+                    <div>
+                      <input type="checkbox" id="zgoda" name="zgoda">
+                      <label for="zgoda">Wyrażam zgodę na przetwarzanie moich danych osobowych w celu rejestracji na koncert.</label>
+                    </div>
             </label>
         </fieldset>
         <button class="submit-button">Zarejestruj się</button>
